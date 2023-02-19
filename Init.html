@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <style> 
+          nav{
+            margin: 0;
+          }
+        </style>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+      </head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light" id="navTop">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-printer" viewBox="0 0 16 16">
+                  <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                  <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"/>
+                </svg>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16">
+                  <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#" >Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="descripcion.html">¿Quienes somos?</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="ServicioTec.html">Servicio Tecnico de impresoras</a></li>
+                      <li><a class="dropdown-item" href="Saint.html">Sistema Saint</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="VentaEquips.html">Venta de equipos</a></li>
+                    </ul>
+                  </li>
+                  <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Ubicanos</button>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" id="myInput"  placeholder="Search for names.." title="Type in a name" onkeyup="myFunctionSearch()">
+                  <!-- <input  type="search" placeholder="Search" aria-label="Search" id="buscar" value=""> -->
+                  <button class="btn btn-outline-success" type="submit"  >Search</button>
+                </form>
+              </div>
+            </div>
+    </nav>
+    <div class="BodyGroup ">
+        <div class="Title Title-container-fluid">
+            
+            
+            <object data="animation.html"></object>
+
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              
+                <div >
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.1554603303987!2d-69.32585439629574!3d10.073589843506742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8767065569d64b%3A0x19c9af2ae7948771!2sTecnosistemas%20Lara!5e0!3m2!1ses!2sco!4v1661368483722!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            
+            
+            <ul id="myUL" class="navbar navbar-container-fluid">
+            <div class="card1 ">
+                <li><div class="card" style="width: 18rem;">
+                    <img src="https://th.bing.com/th/id/R.a5bcebdbdd5b039619d6785115e8dedd?rik=46pcc0Fp%2fKp4%2bw&pid=ImgRaw&r=0&sres=1&sresct=1" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h4 class="card-title">Reparacion</h4>
+                    <p class="card-text" id="card1id">Reparamos tus equipos de <br>computo</p>
+                    <a href="#" class="btn btn-primary">Cotización</a>
+                    </div>
+                </div></li>
+            </div>
+            <div class="card2">
+                <li><div class="card" style="width: 18rem;">
+                    <img src="https://th.bing.com/th/id/R.8249a55e45ec1c87f390e31a21ab3e46?rik=zdeMyIZEaHNOpw&pid=ImgRaw&r=0" class="card-img-top">
+                    <div class="card-body">
+                      <h4 class="card-title">Como son</h4>
+                      <p class="card-text" id="card2id">*Computadoras<br>*Impresoras</p>
+                      <a href="#" class="btn btn-primary">Cotización</a>
+                    </div>
+                </div></li>
+            </div>
+            <div class="card3">
+                <li><div class="card" style="width: 18rem;">
+                    <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/papel-de-bano-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h4 class="card-title">Venta</h4>
+                    <p class="card-text" id="card3id">También vendemos accesorios y consumibles 100% originales</p>
+                    <a href="#" class="btn btn-primary">Cotización</a>
+                    </div>
+                </div></li>
+            </div>
+            <div class="card4">
+                <li><div class="card" style="width: 18rem;">
+                    <object data="animation2.html"></object>
+                    <!-- <img src="https://2.bp.blogspot.com/-7JczQqbJtzQ/V-PuVy9FpkI/AAAAAAAADTQ/-c8FDLRdUQk4MNn-e1rtEXyDAAsZ78eJwCLcB/s1600/Imagen1.png" class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h4 class="card-title">Saint</h4>
+                      <p class="card-text" id="card4id">Distribuidores oficiales del sitema Saint en varias versiones</p>
+                      <a href="#" class="btn btn-primary">Cotización</a>
+                    </div>
+                </div></li>
+            </div>
+            </ul>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://th.bing.com/th/id/R.c574f3bbc53945a1c72bdf761a9349bf?rik=kLC4no4AKegyhQ&pid=ImgRaw&r=0" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Reparacion</p>
+                  <p>Reparamos tus equipos de computacion</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://th.bing.com/th/id/R.e717459b1d436d009c363ef49061cb64?rik=PO15c7ERtTl1iQ&pid=ImgRaw&r=0" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Mantenimiento</p>
+                  <p>Computadoras e impresoras</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/papel-de-bano-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Venta</p>
+                  <p>También vendemos accesorios y consumibles 100% originales</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <script src="animation2.js"></script>
+    <script>
+        function myFunctionSearch(e) {
+          
+            var input, filter, ul, li, div, i, txtValue;
+            input = document.getElementById("myInput")
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                div = li[i].getElementsByTagName("div")[0];
+                txtValue = div.textContent || div.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

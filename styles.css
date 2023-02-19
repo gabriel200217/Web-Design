@@ -1,0 +1,86 @@
+.BodyGroup{
+    background: linear-gradient(300deg, #81817f 50%, #031c8b 70%);
+    width: 100%;
+    position: absolute;
+}
+.Title h5{
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    border: crimson;
+}
+.Title h5::shadow{
+    background: black;
+}
+/* .Title .card1 .card{
+    background-color: white;
+    margin: 50px 700px -412px 30px;
+    border-radius: .5rem;
+}
+.Title .card2 .card{
+    background-color: white;
+    margin: 0px 400px -412px 330px;
+    border-radius: .5rem;
+    position: relative;
+}
+.Title .card3 .card{
+    background-color: white;
+    margin: 0px 100px -412px 630px;
+    border-radius: .5rem;
+    position: relative;
+}
+.Title .card4 .card{
+    background-color: white;
+    margin: 0px 10px 10px 930px;
+    border-radius: .5rem;
+    position: relative;
+} */
+.Title .card2 .card img{
+    height: 215px;
+}
+.Title .card3 .card img{
+    height: 215px;
+}
+.Title .card4 .card img{
+    height: 215px;
+}
+.navbar-brand svg{
+    color: #ffffff;
+}
+.Title button{
+    margin-top: -200px;
+    margin-left: 400px;
+    background-color: rgba(rgba(2, 0, 0, 0));
+}
+.carousel-inner img{
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.carousel-caption {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    text-shadow: 2px 0 rgb(0,0,0), -2px 0 rgb(0,0,0), 0 2px rgb(0,0,0), 0 -2px rgb(0,0,0),
+    1px 1px rgb(0,0,0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0,0,0), -1px 1px rgb(0,0,0);
+}
+iframe{
+    margin-top: 80px;
+    width: 100%;
+    border:2px solid #031c8b;
+}
+object{
+    width: 100%;
+}
+#navTop{
+    background: linear-gradient(110deg, #031c8b 65%, #fdcd3b 75%);
+}
+.navbar-toggler svg{
+    color: #ffffff;
+}
+button .btn{
+    border: none;
+    
+}
